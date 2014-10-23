@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Example
+Bundle-SymbolicName: cn.elwy.example; singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: cn.elwy.example.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.ui.intro,
+ org.eclipse.jface.text;bundle-version="3.7.2",
+ org.jdom;bundle-version="1.1.1"
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
